@@ -11,7 +11,7 @@ class Node{
     }
 
 }
-class Solution {
+class Solution1 {
 
     public static Node removeDuplicates(Node head) {
         //Write your code here
