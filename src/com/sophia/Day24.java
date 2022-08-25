@@ -2,15 +2,7 @@ package com.sophia;
 
 public class Day24 {
 }
-class Node{
-    int data;
-    Node next;
-    Node(int d){
-        data=d;
-        next=null;
-    }
 
-}
 class Solution1 {
 
     public static Node removeDuplicates(Node head) {

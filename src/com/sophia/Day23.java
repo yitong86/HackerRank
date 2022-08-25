@@ -6,14 +6,7 @@ import java.util.Queue;
 public class Day23 {
 
 }
-class Node{
-    Node left,right;
-    int data;
-    Node(int data){
-        this.data=data;
-        left=right=null;
-    }
-}
+
 class Solution {
 
     static void levelOrder(Node root) {
