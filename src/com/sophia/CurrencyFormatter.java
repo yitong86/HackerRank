@@ -22,9 +22,9 @@ public class CurrencyFormatter {
 
             /* Print output */
             String us = usFormat.format(payment);
-            String india = usFormat.format(payment);
-            String china = usFormat.format(payment);
-            String france = usFormat.format(payment);
+            String india = inFormat.format(payment);
+            String china = cnFormat.format(payment);
+            String france = frFormat.format(payment);
 
             System.out.println("US: " + us);
             System.out.println("India: " + india);
