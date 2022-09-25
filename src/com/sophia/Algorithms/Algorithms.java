@@ -1,4 +1,4 @@
-package com.sophia;
+package com.sophia.Algorithms;
 import java.io.*;
 import java.math.*;
 import java.security.*;
