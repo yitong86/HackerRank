@@ -25,7 +25,7 @@ public class GradingStudents {
 
             if(grade >= 38 && difference < 3){
 
-                grades.set(i, grade+difference);
+                grades.set(i, grade+difference);//84 + 1
             }
         }
 
