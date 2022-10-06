@@ -1,13 +1,14 @@
 package com.sophia.PreparationKit;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CountSort {
     public static List<Integer> countingSort(List<Integer> arr) {
         // Write your code here
         int[] frequencyArray = new int[100];
-        // Arrays.fill(frequencyArray);
+        Arrays.fill(frequencyArray,0);
         for(Integer a :arr){
             frequencyArray[a]++;
         }
