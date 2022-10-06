@@ -16,14 +16,12 @@ public class Pangrams {
         for (int i = 0; i < s.length(); i++) {
             // If uppercase character, subtract 'A'
             // to find index.
-            if ('A' <= s.charAt(i)
-                    && s.charAt(i) <= 'Z')
-                index = s.charAt(i) - 'A';
+            if ('A' <= s.charAt(i) && s.charAt(i) <= 'Z')
+                index = s.charAt(i) - 'A';//84-65=19=index/ T position
 
                 // If lowercase character, subtract 'a'
                 // to find index.
-            else if ('a' <= s.charAt(i)
-                    && s.charAt(i) <= 'z')
+            else if ('a' <= s.charAt(i) && s.charAt(i) <= 'z')
 
                 index = s.charAt(i) - 'a';
 
@@ -35,7 +33,7 @@ public class Pangrams {
         }
 
         // Return false if any character is unmarked
-        for (int i = 0; i <= 25; i++)
+        for (int i = 0; i < mark.length; i++)
             if (mark[i] == false)
                 return "not pangram";
 
