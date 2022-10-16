@@ -14,12 +14,14 @@ public class XORStrings {
             String res = new String("");
             for(int i = 0; i < s.length(); i++) {
                 if(s.charAt(i) == t.charAt(i))
-                    res = res + '0';
+                    //10101
+                   // 00101
+                    res = res + '0';//0 0 0 0
                 else
-                    res = res + '1';
+                    res = res + '1';//1
             }
 
-            return res;
+            return res;//10000
         }
 
     }
