@@ -8,19 +8,12 @@ public class MaximunPerimeterTriangle {
 
   //  class Result {
 
-        /*
-         * Complete the 'maximumPerimeterTriangle' function below.
-         *
-         * The function is expected to return an INTEGER_ARRAY.
-         * The function accepts INTEGER_ARRAY sticks as parameter.
-         */
-
         public static List<Integer> maximumPerimeterTriangle(List<Integer> sticks) {
             // Write your code here
             Collections.sort(sticks);
-            int sum = 0;//[1,1,1,3,3]
+           //[1,1,1,3,3]
             ArrayList<Integer> arr = new ArrayList<>();
-            int i = sticks.size()-3;
+            int i = sticks.size()-3;//i=5-3=2
             while(i>=0){
                 if(sticks.get(i) + sticks.get(i+1) > sticks.get(i+2)){
                     break;
@@ -39,3 +32,17 @@ public class MaximunPerimeterTriangle {
         }
 
 }
+
+
+
+
+//convert array into zigzag
+
+
+
+//for(int i = 0;i<N-1;i++){
+//    if(i%2 ==0 && A[i]>A[i+1])
+//        swwap(A[i],A[i+1])
+//        else if(i % 2 ==1 && A[i]<A[i+1])
+//            swap(A[i].A[i+1])
+//        }
