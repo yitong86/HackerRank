@@ -26,7 +26,7 @@ public class MigatoryBirds {
 //    public static int migratoryBirds(List<Integer> arr) {
 //        // Write your code here
 //        int birdId =1;
-//        for(int i = 2;i<=5;i++){
+//        for(int i = 2;i<=5;i++){ i = bird Id
 //            if(Collections.frequency(arr, i)> Collections.frequency(arr, birdId)){
 //                birdId = i;
 //            }
