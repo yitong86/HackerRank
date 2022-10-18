@@ -16,6 +16,7 @@ public class SalesByMatch {
             }
         }
 
+
         return (n-m.size())/2;
 
     }
