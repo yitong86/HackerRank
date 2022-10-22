@@ -21,4 +21,17 @@ public class BigInteger {
     }
 
 
-
+//    public static void main(String[] args) {
+//
+//        Scanner input = new Scanner(System.in);
+//
+//        String s1 = input.next();
+//        String s2 = input.next();
+//
+//        BigInteger A = new BigInteger(s1);
+//        BigInteger B = new BigInteger(s2);
+//
+//        System.out.println(A.add(B));
+//        System.out.println(A.multiply(B));
+//    }
+//}
