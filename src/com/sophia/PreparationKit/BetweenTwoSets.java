@@ -55,31 +55,29 @@ public class BetweenTwoSets {
 
         }
 
-//        public class Solution {
-//            public static void main(String[] args) throws IOException {
-//                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-//                BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-//
-//                String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-//
-//                int n = Integer.parseInt(firstMultipleInput[0]);
-//
-//                int m = Integer.parseInt(firstMultipleInput[1]);
-//
-//                List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-//                        .map(Integer::parseInt)
-//                        .collect(toList());
-//
-//                List<Integer> brr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-//                        .map(Integer::parseInt)
-//                        .collect(toList());
-//
-//                int total = Result.getTotalX(arr, brr);
-//
-//                bufferedWriter.write(String.valueOf(total));
-//                bufferedWriter.newLine();
-//
-//                bufferedReader.close();
-//                bufferedWriter.close();
-//            }
+//    List<Integer> numStorage = new ArrayList<>();
+//        for(int i = 1;i<=Collections.max(b);i++){
+//                boolean flag = true;
+//                for(int j = 0;j<a.size();j++){
+//        if(i%a.get(j)!= 0){
+//        flag = false;
+//        break;
 //        }
+//        }
+//        if(flag){
+//        numStorage.add(i);
+//        }
+//        }
+//        for(int i = 0;i<b.size();i++){
+//        for(int j = 0;j<numStorage.size();j++){
+//        if(b.get(i) % numStorage.get(j) != 0){
+//        numStorage.remove(j--);
+//        }
+//        }
+//
+//        }
+//        return numStorage.size();
+//        }
+//
+//        }
+
