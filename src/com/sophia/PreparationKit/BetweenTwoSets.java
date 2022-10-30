@@ -55,8 +55,8 @@ public class BetweenTwoSets {
 
         }
 
-//    List<Integer> numStorage = new ArrayList<>();
-//        for(int i = 1;i<=Collections.max(b);i++){
+//    List<Integer> numStorage = new ArrayList<>();存储a的公倍数,带到b里，查是否是b 的factor
+//        for(int i = 1;i<=Collections.max(b);i++){  b=[24,36]
 //                boolean flag = true;
 //                for(int j = 0;j<a.size();j++){
 //        if(i%a.get(j)!= 0){
