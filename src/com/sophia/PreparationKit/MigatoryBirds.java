@@ -20,7 +20,9 @@ public class MigatoryBirds {
 
                 }
             }
-
+//map.entrySet() get set view []
+        //Initial Mappings are: {20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4}
+        //The set is: [20=Geeks, 25=Welcomes, 10=Geeks, 30=You, 15=4]
             number = Collections.max(map.entrySet(), Map.Entry.comparingByValue()).getKey();
             return number;
         }
