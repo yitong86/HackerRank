@@ -20,7 +20,7 @@ public class JavaVarargs {
 
             int sum = 0;
             for (int i = 0; i < arr.length; i++) {
-                if (i == arr.length - 1) {
+                if (i == arr.length - 1) {// 1,2
                     System.out.print(arr[i] + "=");
                 } else {
 
@@ -36,3 +36,6 @@ public class JavaVarargs {
         }
     }
 }
+//    As you already stated correctly this java notation is to make the method accept a variable amount of (in this case) int parameter.
+//
+//        To handle this variable amount of variables you can access it like an array.

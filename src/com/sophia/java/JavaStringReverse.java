@@ -17,6 +17,15 @@ public class JavaStringReverse {
             }else{
                 System.out.println("No");
             }
+
+
+
+//            StringBuilder str = new StringBuilder("A");
+//            if(str.reverse().toString().equals("A")){
+//                System.out.println("Yes");
+//            }else{
+//                System.out.println("No");
+//            }
         }
     }
 
