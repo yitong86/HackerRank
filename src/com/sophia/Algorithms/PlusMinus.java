@@ -9,28 +9,22 @@ import java.util.regex.*;
 public class PlusMinus {
 
 
-        /*
-         * Complete the 'plusMinus' function below.
-         *
-         * The function accepts INTEGER_ARRAY arr as parameter.
-         */
-
         public static void plusMinus(List<Integer> arr) {
             // Write your code here
-            float positive = 0;
-            float negative =0;
+            float sumPositive = 0;
+            float sumNegative =0;
             float zero = 0;
             for(int i = 0;i < arr.size();i++){
                 if(arr.get(i)>0){
-                    positive++;
+                    sumPositive++;
                 }else if(arr.get(i)<0){
-                    negative++;
+                    sumNegative++;
                 }else{
                     zero++;
                 }
             }
-            System.out.println(positive/arr.size());
-            System.out.println(negative/arr.size());
+            System.out.println(sumPositive/arr.size());
+            System.out.println(sumNegative/arr.size());
             System.out.println(zero/arr.size());
         }
 
