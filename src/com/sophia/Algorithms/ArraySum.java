@@ -5,11 +5,11 @@ import java.util.List;
 public class ArraySum {
     public static int simpleArraySum(List<Integer> ar) {
         // Write your code here
-        int sum = 0;
+        int sumArr = 0;
         for(int i = 0;i <ar.size();i++){
-            sum +=ar.get(i);
+            sumArr +=ar.get(i);
         }
-        return sum;
+        return sumArr;
     }
 
 
