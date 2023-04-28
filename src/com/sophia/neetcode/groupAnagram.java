@@ -1,5 +1,10 @@
 package com.sophia.neetcode;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class groupAnagram {
    // class Solution {
         public List<List<String>> groupAnagrams(String[] strs) {

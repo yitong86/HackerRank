@@ -37,6 +37,11 @@ public class PlusMinus {
             System.out.print(String.format("%.6g%n", (double)positive/arr.size()));
             System.out.print(String.format("%.6g%n",(double)negative/arr.size()));
             System.out.print(String.format("%.6g%n",(double)zero/arr.size()));
+
+
+            //define data type double
+            //double positive = 0;
+            //System.out.println(positive/arr.size())
         }
 
 
