@@ -2,17 +2,18 @@ package com.sophia.Algorithms;
 
 public class TimeConversition {
     public static String timeConversion(String s) {
-        String start = s.substring(0,2);//hour
-        String end = s.substring(2,8);
-        int hour = Integer.parseInt(start);
+        //07:05:45PM
+        String start = s.substring(0,2);//hour "07"
+        String end = s.substring(2,8);//s.substring(2,s.length())
+        int hour = Integer.parseInt(start);//07
         if(s.contains("P") && hour < 12){
-            hour += 12;
-            start = String.valueOf(hour);
+            hour += 12;//07+12=19
+            start = String.valueOf(hour);//transfer to string
 
-        }else if(s.contains("A") && hour == 12){
+        }else if(s.contains("A") && hour == 12){//hour = 12
             start = "00";
         }
-        s = start +end;
+        s = start + end;//new string
         return s;
     }
 }
