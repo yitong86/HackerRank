@@ -8,7 +8,7 @@ public class TimeConversition {
         int hour = Integer.parseInt(start);//07
         if(s.contains("P") && hour < 12){
             hour += 12;//07+12=19
-            start = String.valueOf(hour);//transfer to string
+            start = String.valueOf(hour);//transfer interger to string
 
         }else if(s.contains("A") && hour == 12){//hour = 12
             start = "00";
