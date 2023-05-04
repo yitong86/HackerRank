@@ -6,6 +6,7 @@ import java.util.Map;
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
+        //using hashmap to count
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);

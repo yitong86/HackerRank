@@ -1,16 +1,14 @@
 package com.sophia.days30;
 
-import com.sophia.Node;
+//import com.sophia.Node;
+
+
+import org.w3c.dom.Node;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Day23 {
-
-}
-
-class Solution {
-
     static void levelOrder(Node root) {
         //Write your code here
         if (root == null) {
@@ -30,3 +28,5 @@ class Solution {
         }
     }
 }
+
+
